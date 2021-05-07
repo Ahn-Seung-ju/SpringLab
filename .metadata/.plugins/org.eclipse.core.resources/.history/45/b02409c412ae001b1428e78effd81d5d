@@ -1,0 +1,8 @@
+package com.model;
+
+//상품테이블과 1:1로 매핑되는 DTO
+public class OderItem {
+	private int itemid;
+	private int number;
+	private String remark;
+}

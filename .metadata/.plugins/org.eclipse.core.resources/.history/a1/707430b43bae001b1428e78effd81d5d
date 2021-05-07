@@ -1,0 +1,33 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.model.Photo;
+
+@Controller
+@RequestMapping("/image/upload.do")
+public class ImageController {
+	
+	@RequestMapping(method=RequestMethod.GET)
+	public String form() {
+		return "image";
+	}
+	
+	@RequestMapping(method=RequestMethod.POST)
+	public String submit(Photo photo) {
+		/*
+			1. Photo DTO 타입으로 데이터 받기
+			1.1 자동화: name 속성괎이 Photo 타입 클래스 memberfield명과 동일
+			2. 내부적으로 public String submit(Photo photo)
+			2.1 Photo photo = new Photo();
+			2.2 자동 주입
+			photo.setName("홍길동")
+			photo.setAge(50);
+			photo.setImage() >> 자동주입 안됨 >> 업로드한 파일명 >> 가공
+			photo.setFile(CommonsMultipartFile file)
+		 */
+		return null;
+	}
+}

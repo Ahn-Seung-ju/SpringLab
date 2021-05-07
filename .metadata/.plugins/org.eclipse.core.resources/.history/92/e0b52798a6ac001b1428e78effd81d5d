@@ -1,0 +1,16 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+
+/*
+@controller >> method 단위로 서비스가 매핑
+하나의 controller 안에서 ...
+
+
+ */
+@Controller
+public class HelloController{
+	public HelloController() {
+		System.out.println("HellController 생성자 호출");
+	}
+}

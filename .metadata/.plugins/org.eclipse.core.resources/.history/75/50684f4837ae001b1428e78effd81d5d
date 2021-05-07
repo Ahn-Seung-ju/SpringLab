@@ -1,0 +1,15 @@
+package com.model;
+
+/*
+	DB에 
+	create table photo(
+	name
+	age
+	image >> 업로드한 파일명 >> 1.jpg 2.png 파일명
+ */
+
+public class Photo {
+	private String name;
+	private age;
+	private String image;// 이미지 파일명
+}

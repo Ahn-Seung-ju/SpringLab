@@ -1,0 +1,28 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+/*
+@controller >> method 단위로 서비스가 매핑
+하나의 controller 안에서 ...
+
+
+ */
+@Controller
+public class HelloController{
+	public HelloController() {
+		System.out.println("HellController 생성자 호출");
+	}
+	
+	@RequestMapping("/hello.do")//<a href = "hello.do"></a>
+	public ModelAndView hello() {
+		System.out.println("[hello.do method call]");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("greeting", "hello");
+		mv.setViewName("Hello");
+		
+		return mv;
+	}
+}

@@ -1,0 +1,12 @@
+package DI_Spring04;
+
+import java.util.List;
+
+public class ProtocolHandler_P {
+	private List<MyFilter_P> list;
+	
+	public List<MyFilter_P> getList(){
+		
+		return list;
+	}
+}

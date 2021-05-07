@@ -1,0 +1,11 @@
+package DI_Spring06;
+
+public class HelloApp6 {
+
+	public static void main(String[] args) {
+		JobExecute_P excute = null;
+		
+		excute = new JobExecute_P("str" , (long) 19.1);
+	}
+
+}

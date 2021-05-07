@@ -1,0 +1,5 @@
+package AOP_Basic_05_Spring;
+
+public class LogPrintAfter {
+
+}

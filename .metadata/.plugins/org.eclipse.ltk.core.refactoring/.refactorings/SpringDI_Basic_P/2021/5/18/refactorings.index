@@ -1,0 +1,16 @@
+1619848615821	Delete elements
+1619848930747	Delete element
+1619849068931	Rename type 'MessageBean'
+1619851506189	Rename resource 'DI_02_P.xml'
+1619852209062	Rename type 'MessageBeanlmpl_P'
+1619852372561	Rename type 'MessageBeanlmpl'
+1619855197138	Delete element
+1619858773986	Rename type 'EncFIlter_P'
+1619940718984	Rename type 'Article'
+1619941740050	Rename type 'OracleArticleDao'
+1619943799936	Rename resource 'DI05_Spring_P.xml'
+1619949226237	Rename type 'JobExecute'
+1619952243797	Rename type 'ProtocolHandler'
+1619952764757	Rename type 'RestHandler'
+1619952769229	Rename type 'RssHandler'
+1619952774404	Rename type 'ProtocolHandlerFactory'

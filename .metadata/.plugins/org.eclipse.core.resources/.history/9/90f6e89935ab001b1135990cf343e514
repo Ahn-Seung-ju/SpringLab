@@ -1,0 +1,9 @@
+package DI_Spring07;
+
+public class HelloApp7 {
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}

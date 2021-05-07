@@ -1,0 +1,14 @@
+package DI_Spring05;
+
+public class ArticleService_P {
+	private ArticleDao_P articledao;
+	
+	public ArticleService_P(ArticleDao_P articledao) {
+		this.articledao = articledao;
+	}
+	
+	public void write(Article_P article) {
+		this.articledao.insert(article);
+	}
+	
+}

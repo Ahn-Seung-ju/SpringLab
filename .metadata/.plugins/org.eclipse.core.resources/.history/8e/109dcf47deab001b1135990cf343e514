@@ -1,0 +1,9 @@
+package AOP_Basic_02_JAVA;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

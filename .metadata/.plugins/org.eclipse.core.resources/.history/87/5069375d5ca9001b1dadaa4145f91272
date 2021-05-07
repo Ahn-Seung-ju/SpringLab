@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  
+객체의 생성과 조립(주입)
+
+*Spring은 자신만에 [컨테이너(Spring 전용 메모리 공간)]을 제공(IOC) 받는다
+*xml 또는 annotation을 토앻서 객체의 생성과 조립 수행(객체간의 관계 설정)
+
+
+DI_05_xml
+
+-->
+
+	
+</beans>

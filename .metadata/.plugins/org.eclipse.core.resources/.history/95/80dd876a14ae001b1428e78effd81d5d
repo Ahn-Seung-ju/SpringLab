@@ -1,0 +1,19 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/*
+하나의 요청 주소로 2개 업무 처리
+/ordre/order.do
+
+화면:GET
+처리:POST
+ */
+@Controller
+@RequestMapping("/order/order.do")
+public class OrderController {
+	public String form() {
+		return "order/OrderForm";
+	}
+}

@@ -1,0 +1,9 @@
+package DI_Spring04;
+
+public class HelloApp4 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

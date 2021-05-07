@@ -1,0 +1,14 @@
+package Spring01;
+
+public class HelloApp_01 {
+
+	public static void main(String[] args) {
+		
+		MessageBean_P message = new MessageBean_en_P();
+		message.sayHello("안승주");
+		
+		message = new MessageBean_kr_P();
+		message.sayHello("안승주");
+	}
+
+}

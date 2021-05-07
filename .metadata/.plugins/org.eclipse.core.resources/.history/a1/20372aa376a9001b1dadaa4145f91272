@@ -1,0 +1,10 @@
+package DI_07_Spring;
+
+import java.util.List;
+
+public class ProtocolHandler {
+	private List<MyFilter> filters;
+	
+	
+	
+}

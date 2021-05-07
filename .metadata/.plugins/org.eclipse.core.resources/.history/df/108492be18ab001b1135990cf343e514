@@ -1,0 +1,5 @@
+package DI_Spring05;
+
+public interface ArticleDao_P {
+
+}

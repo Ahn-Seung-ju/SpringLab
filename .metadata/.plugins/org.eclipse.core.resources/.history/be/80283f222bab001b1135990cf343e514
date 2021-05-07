@@ -1,0 +1,6 @@
+package DI_Spring06;
+
+public class ArticleDao_P {
+	String name;
+	int num;
+}

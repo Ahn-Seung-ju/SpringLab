@@ -1,0 +1,11 @@
+package DI_Spring02;
+
+public class MessageBeanlmpl_P implements MessageBean_P2 {
+
+	@Override
+	public void sayHello() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

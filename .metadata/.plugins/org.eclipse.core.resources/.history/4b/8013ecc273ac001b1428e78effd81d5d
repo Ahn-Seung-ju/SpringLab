@@ -1,0 +1,12 @@
+package AOP_Basic_03_Spring;
+
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class Program {
+
+	public static void main(String[] args) {
+		GenericXmlApplicationContext context = 
+				new GenericXmlApplicationContext("classpath:AOP_Basic_03_Spring/ApplicationContext.xml");
+	}
+
+}

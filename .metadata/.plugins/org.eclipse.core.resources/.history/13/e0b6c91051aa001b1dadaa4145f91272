@@ -1,0 +1,26 @@
+package DI_Spring03;
+
+public class HelloApp3 {
+
+	public static void main(String[] args) {
+		
+		MyBean_P mybean = new MyBean_P();
+		System.out.println(mybean);
+		//DI_Spring03.MyBean_P@15db9742
+		mybean = new MyBean_P();
+		System.out.println(mybean);
+		//DI_Spring03.MyBean_P@6d06d69c
+		
+		
+		mybean = new MyBean_P("서태희");
+		System.out.println(mybean);
+		//DI_Spring03.MyBean_P@7852e922
+		
+		Singleton_P single = Singleton_P.getInstance();
+		System.out.println(single);
+		
+		Singleton_P single2 = Singleton_P.getInstance();
+		System.out.println(single2);
+	}
+
+}

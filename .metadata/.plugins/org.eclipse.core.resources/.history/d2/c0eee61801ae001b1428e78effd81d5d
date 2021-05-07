@@ -1,0 +1,14 @@
+package DI_Spring_Annotation01;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ConfigContext {
+	
+	@Bean
+	public User user() {
+		
+		return new User();
+	}
+}

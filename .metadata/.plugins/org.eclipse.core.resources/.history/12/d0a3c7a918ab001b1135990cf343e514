@@ -1,0 +1,6 @@
+package DI_Spring05;
+
+public class Article_P {
+	String name;
+	String num;
+}

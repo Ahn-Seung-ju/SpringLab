@@ -1,0 +1,8 @@
+package com.model;
+
+//DB에 Article table이 있다고 가정 1:1 매핑되는 클래스(DTO)
+public class NewArticleCommand {
+	private int parentId;
+	private String title;
+	private String content;
+}

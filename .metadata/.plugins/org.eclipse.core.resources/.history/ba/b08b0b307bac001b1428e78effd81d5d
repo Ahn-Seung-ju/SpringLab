@@ -1,0 +1,15 @@
+package AOP_Basic_04_Spring;
+
+import java.lang.reflect.Method;
+
+import org.springframework.aop.MethodBeforeAdvice;
+
+public class LogPrintBeforeAdvice implements MethodBeforeAdvice{
+
+	@Override
+	public void before(Method method, Object[] args, Object arg2) throws Throwable {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

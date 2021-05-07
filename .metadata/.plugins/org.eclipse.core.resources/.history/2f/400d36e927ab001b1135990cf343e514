@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  
+
+		ArticleDao_P mysql = new MySqlArticleDao_P();
+		ArticleDao_P oracle = new OracleArticleDao_P();
+		
+		ArticleService_P service = new ArticleService_P(mysql);
+		
+		Article_P ariticel = new Article_P();
+
+-->
+	<bean id = "article" class ="DI_Spring05.Article_P"></bean>
+	<bean id = "articleService" class = "DI_Spring05.ArticleService_P">
+		<constructor-arg>
+			<bean class = "DI_Spring05.MySqlArticleDao_P"/>
+		</constructor-arg>
+	</bean>
+</beans>

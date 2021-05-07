@@ -1,0 +1,10 @@
+package DI_Annotation_04;
+
+import org.springframework.context.annotation.Configuration;
+
+//ConfigContext 파일은 >> DI_Config.xml과 동일한 효과
+
+@Configuration
+public class ConfigContext {
+
+}

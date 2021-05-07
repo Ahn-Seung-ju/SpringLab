@@ -1,0 +1,7 @@
+package com.model;
+
+//주문서 클래스
+//하나의 주문은 여러개의 상품을 가질 수 있다
+public class OㄱderCommand {
+
+}

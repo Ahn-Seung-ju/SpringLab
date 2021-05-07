@@ -1,0 +1,13 @@
+package DI_Spring06;
+
+public class HelloApp6 {
+
+	public static void main(String[] args) {
+		JobExecute_P execute = null;
+		
+		execute = new JobExecute_P("str" , "str2");
+		execute.setData(100);
+		execute.getData();
+	}
+
+}

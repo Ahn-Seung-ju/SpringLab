@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DI_11.xml&apos; to &apos;SpringDI_Basic03_Annotation/src/DI_Annotation_01&apos;&#x0A;- Original project: &apos;SpringDI_Basic02_xmlSetting&apos;&#x0A;- Destination element: &apos;SpringDI_Basic03_Annotation/src/DI_Annotation_01&apos;&#x0A;- Original element: &apos;DI_11.xml&apos;" description="Copy file" destination="=SpringDI_Basic03_Annotation/src&lt;DI_Annotation_01" element1="src/DI_11_Spring/DI_11.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1620005590850" units="0" version="1.0"/>
+</session>

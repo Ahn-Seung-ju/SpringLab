@@ -1,0 +1,65 @@
+package ncontroller;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import dao.NoticeDao;
+import vo.Notice;
+
+@Controller
+@RequestMapping("/customer/notice.htm")
+public class CustomerController {
+	
+	private NoticeDao noticedao;
+
+	public NoticeDao getNoticedao() {
+		return noticedao;
+	}
+	@Autowired
+	public void setNoticedao(NoticeDao noticedao) {
+		this.noticedao = noticedao;
+	}
+	
+	@RequestMapping(method=RequestMethod.GET)
+	public String notice() {
+		
+		return "notice";
+	}
+	
+	public ModelAndView noticeView(@RequestParam(value = "pg", defaultValue = "1") String page, 
+								   @RequestParam(value = "f", defaultValue = "TITLE") String field, 
+								   @RequestParam(value = "p", defaultValue = "%%") String query) {
+		
+		int _page = Integer.parseInt(page);
+		
+		//DAO 작업
+		List<Notice> list;
+		try {
+			list = noticedao.getNotices(_page, field, query);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//Spring 적용
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("list",list);
+		mv.setViewName("notice.jsp");
+		
+		return mv;
+		
+		return null;
+	}
+	
+
+}

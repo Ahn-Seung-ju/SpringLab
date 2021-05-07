@@ -1,0 +1,19 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+/*
+
+ */
+@Controller
+@RequestMapping("/article/newArticle.do")
+public class NewArticleController {
+	
+	@RequestMapping(method=RequestMethod.GET)//화면 제공
+	public String form() {
+		
+		return "article/newArticleForm";
+	}
+	
+}

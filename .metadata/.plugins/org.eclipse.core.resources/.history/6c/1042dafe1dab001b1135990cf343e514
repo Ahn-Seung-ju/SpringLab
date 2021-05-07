@@ -1,0 +1,9 @@
+package DI_Spring05;
+
+public class HelloApp5 {
+	public static void main(String[] args) {
+		//Oracle 사용 insert 실행 하세요
+		
+		
+	}
+}

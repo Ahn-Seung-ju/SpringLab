@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  
+
+		MessageBean_P message = new MessageBean_en_P();
+		message.sayHello("안승주");
+		
+		message = new MessageBean_kr_P();
+		message.sayHello("안승주");
+
+-->
+
+	<bean id = "ms_bean" class = "Spring01.MessageBean_en_P"></bean>
+</beans>

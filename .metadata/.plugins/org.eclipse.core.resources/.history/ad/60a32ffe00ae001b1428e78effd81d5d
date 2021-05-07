@@ -1,0 +1,5 @@
+package DI_Spring_Annotation01;
+
+public class ConfigContext {
+
+}

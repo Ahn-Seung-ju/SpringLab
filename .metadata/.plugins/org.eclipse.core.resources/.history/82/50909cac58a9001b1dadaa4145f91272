@@ -1,0 +1,12 @@
+package DI_04_Spring;
+
+public class HelloApp {
+
+	public static void main(String[] args) {
+		//java 코드
+		MessageBeanlmpl message = new MessageBeanlmpl("hong");
+		message.setGreeting("hello");
+		message.sayHello();
+	}
+
+}

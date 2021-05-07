@@ -1,0 +1,5 @@
+package DI_Spring07;
+
+public interface ProtocolHandler {
+
+}

@@ -1,0 +1,19 @@
+package DI_Spring05;
+
+public class HelloApp5 {
+	public static void main(String[] args) {
+		//MySpl 사용 insert 실행 하세요
+		
+		/*
+		ArticleDao_P mysql = new MySqlArticleDao_P();
+		ArticleDao_P oracle = new OracleArticleDao_P();
+		
+		ArticleService_P service = new ArticleService_P(mysql);
+		
+		Article_P ariticel = new Article_P();
+		service.write(ariticel);
+		*/
+		
+		
+	}
+}

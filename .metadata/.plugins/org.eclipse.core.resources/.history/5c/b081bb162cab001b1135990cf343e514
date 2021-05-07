@@ -1,0 +1,31 @@
+package DI_Spring06;
+
+public class JobExecute {
+	
+	ArticleDao_P articleDao;
+	
+	public void setArticleDao(ArticleDao_P articleDao) {
+		this.articleDao = articleDao;
+		System.out.println(this.articleDao);
+	}
+	
+	
+	
+	public JobExecute() {
+		System.out.println("JobExecute 생성자 확인");
+	}
+	
+	public JobExecute(String str, long lo) {
+		System.out.println("String , long");
+	}
+	
+	public JobExecute(String str, int i) {
+		System.out.println("String , int");
+	}
+	
+	public JobExecute(String str, String str2) {
+		System.out.println("String , Stirng");
+	}
+	
+	
+}

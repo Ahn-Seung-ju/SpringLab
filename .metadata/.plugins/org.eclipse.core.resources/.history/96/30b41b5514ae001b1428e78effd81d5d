@@ -1,0 +1,10 @@
+package com.controller;
+
+/*
+하나의 요청 주소로 2개 업무 처리
+/ordre/order.do
+ */
+
+public class OrderController {
+
+}

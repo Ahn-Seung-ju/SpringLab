@@ -1,0 +1,10 @@
+package Spring01;
+
+public class HelloApp_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

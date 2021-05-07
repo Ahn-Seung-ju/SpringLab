@@ -1,0 +1,13 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+
+/*
+@controller >> method 단위로 서비스가 매핑
+
+
+ */
+@Controller
+public class HelloController{
+
+}
