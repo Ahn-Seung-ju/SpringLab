@@ -75,6 +75,9 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/ahmseungju/Downloads/spring"/>
+			<item value="/Users/ahmseungju/Downloads/SpringMVC_Basic05_JdbcTemplate"/>
+			<item value="/Users/ahmseungju/Downloads/SpringMVC_Basic02_WebSite"/>
 			<item value="/Users/ahmseungju/Downloads/SpringLabs/SpringDI_Basic05_Prototype"/>
 			<item value="/Users/ahmseungju/Downloads/SpringLabs/SpringDI_Basic04_Bean_LifeCycle"/>
 			<item value="/Users/ahmseungju/bit2021/Spring/SpringLab/Sample/SpringDAO_Basic4"/>
