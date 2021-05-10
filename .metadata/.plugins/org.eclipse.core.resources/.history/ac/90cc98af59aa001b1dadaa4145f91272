@@ -1,5 +1,0 @@
-package DI_Spring04;
-
-public class EncFIlter_P implements MyFilter_P {
-
-}

@@ -1,7 +1,0 @@
-package DI_Spring07;
-
-import java.util.Map;
-
-public class ProtocolHandlerFactory {
-	private Map<String, ProtocolHandler2_P> handlers;
-}

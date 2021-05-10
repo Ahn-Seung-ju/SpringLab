@@ -36,5 +36,4 @@ public class EmpLoggingAspect {
 	public void logAgterThrowingAllMethods(Exception ex) throws Throwable {
 		System.out.println(">>>>>> @AfterThrowing advice : " + ex);
 	}
-	
 }

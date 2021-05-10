@@ -1,7 +1,0 @@
-package DI_Spring05;
-
-public class HelloApp5 {
-	public static void main(String[] args) {
-		
-	}
-}

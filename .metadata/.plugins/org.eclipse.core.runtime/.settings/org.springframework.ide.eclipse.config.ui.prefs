@@ -1,4 +1,9 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/AOPTEST/src/com/java/ex/aop.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AOPTEST/src/com/java/ex2/aop.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AOPTEST2/src/main/resources/aspectjannotation.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AOPTEST3/src/main/resources/AspectJ.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AOPTEST3_Aspectj/src/xml/AspectJ.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/AOPTEST3_Aspectj/src/xml/aspectjannotation.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/SpringDI_Basic01/src/DIConfig.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/SpringDI_Basic02_P/src/DI_Spring01/DI_01_Spring_P.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/SpringDI_Basic02_P/src/Spring01/DI_01_Spring_P.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
@@ -44,4 +49,5 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/SpringMVC_Basic05_JdbcTemplate/WebContent/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/SpringMVC_Basic_P/src/main/webapp/WEB-INF/dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/testAspectj/src/main/webapp/aop.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage id\="com.springsource.sts.config.ui.editors.namespaces" index\="1" kind\="formPage"/>
+com.springsource.config.ui.prefs.tabs.dialog=always
 eclipse.preferences.version=1

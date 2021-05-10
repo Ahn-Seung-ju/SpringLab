@@ -23,12 +23,16 @@ INDEX VERSION 1.131
 /SpringMVC_Basic03_Annotation/src/main/java
 /Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1388453805.index
 /SpringMVC_Basic03_Annotation/src/main/java
+/Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/150044065.index
+/SpringMVC_Basic06_WebSite_Annotation_JdbcTemplate/src
 /Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3590873271.index
 /SpringMVC_Basic02_WebSite/src
 /Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3653555789.index
 /SpringMVC_Basic03_Annotation/src/main/java
 /Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1018118463.index
 /aaa/src/main/java
+/Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2755157866.index
+/SpringMVC_Basic06_WebSite_Annotation_JdbcTemplate/src
 /Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1472238828.index
 /SpringMVC_Basic04_WebSite_Annotation/src
 /Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1955589835.index
@@ -37,5 +41,7 @@ INDEX VERSION 1.131
 /SpringMVC_Basic_P/src/main/java
 /Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3653895003.index
 /SpringMVC_Basic02_WebSite/src
+/Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/51403297.index
+/SpringMVC_Basic06_WebSite_Annotation_JdbcTemplate/src
 /Users/ahmseungju/bit2021/Spring/SpringLab/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4110706572.index
 /SpringMVC_Basic04_WebSite_Annotation/src

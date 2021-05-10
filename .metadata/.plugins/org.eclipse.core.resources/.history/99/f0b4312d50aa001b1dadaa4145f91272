@@ -1,7 +1,0 @@
-package DI_Spring03;
-
-public class Singleton_P {
-	private Singleton_P() {}
-	
-	
-}

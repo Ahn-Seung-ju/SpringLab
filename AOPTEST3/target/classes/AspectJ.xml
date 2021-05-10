@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+	<bean id = "empManagerImpl" class = "xml.EmpManagerImpl"/>
+	<bean id = "empLoggingAspec" class = "xml.EmpLoggingAspect"/>
+	
+	<aop:config>
+		<aop:aspect id = "1" ref = "empLoggingAspec">
+			<aop:pointcut expression="execution(* xml.EmpManagerImpl.get*(..))" id="empPointcut"/>
+			<aop:around pointcut-ref = "empPointcut" method="around"/>
+		</aop:aspect>
+		
+		<aop:aspect id = "2" ref = "empLoggingAspec">
+			<aop:pointcut expression="execution(* xml.EmpManagerImpl.get*(..))" id="empPointcut"/>
+			<aop:after pointcut-ref = "empPointcut" method="after"/>
+		</aop:aspect>
+		
+		<aop:aspect id = "3" ref = "empLoggingAspec">
+			<aop:pointcut expression="execution(* xml.EmpManagerImpl.get*(..))" id="empPointcut"/>
+			<aop:before pointcut-ref = "empPointcut" method="before"/>
+		</aop:aspect>
+		
+		
+	</aop:config>
+</beans>
