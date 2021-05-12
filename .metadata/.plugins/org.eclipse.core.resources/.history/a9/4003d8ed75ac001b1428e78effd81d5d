@@ -1,5 +1,0 @@
-package AOP_Basic_03_Spring;
-
-public class LogPrintAroundAdvice {
-
-}

@@ -2,4 +2,6 @@
 <typeInfoHistroy>
     <typeInfo handle="=SpringDI_Basic_P/src&lt;DI_Spring02{MessageBean_P2.java[MessageBean_P2" modifiers="513" timestamp="1619851597000"/>
     <typeInfo handle="=SpringDI_Basic_P/src&lt;DI_Spring04{MyFilter_P.java[MyFilter_P" modifiers="513" timestamp="1619857829000"/>
+    <typeInfo handle="=SpringMVC_Basic06_WebSite_Annotation_JdbcTemplate/src&lt;dao{MemberDao.java[MemberDao" modifiers="513" timestamp="1620608764000"/>
+    <typeInfo handle="=SpringMVC_Basic06_WebSite_Annotation_JdbcTemplate/src&lt;dao{NoticeDao.java[NoticeDao" modifiers="513" timestamp="1620608883000"/>
 </typeInfoHistroy>

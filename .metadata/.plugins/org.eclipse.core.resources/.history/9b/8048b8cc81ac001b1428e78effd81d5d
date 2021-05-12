@@ -1,7 +1,0 @@
-package kr.or.bit;
-
-import org.springframework.web.servlet.mvc.Controller;
-
-public class HelloController implements control{
-
-}

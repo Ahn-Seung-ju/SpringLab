@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+<!--  
+
+
+/*
+@Controller Presentation Layer에서 Contoller를 명시하기 위해서 사용
+@Service Business Layer에서 Service를 명시하기 위해서 사용
+@Repository Persistence Layer에서 DAO를 명시하기 위해서 사용
+@Component 그 외에 자동으로 스캔해서 등록하고 싶은 것들을 위해 사용
+​
+​
+@Repository
+NewNoticeDao 에 Annotation 붙이고 싶다면 ....
+*/
+  
+-->	
+<!-- 모든 컨트롤러가 공통 사용 DAO 빈 객체  참조-->
+	<context:annotation-config />
+	<context:component-scan base-package="ncontroller"/>
+	<context:component-scan base-package="dao"></context:component-scan>
+	<bean id = "internalResourceViewResolver" class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix">
+			<value>/WEB-INF/views/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+	</bean>
+	
+<!-- 모든 컨트롤러가 공통 사용 DAO 빈 객체 -->
+<!-- <bean id = "noticeDao" class = "dao.NoticeDao"></bean> -->
+<!-- <bean id = "noticeDao" class = "dao.NewNoticeDao"/> -->
+<!-- 게시판 빈 객체생성이 자동화 :component-scan -->
+<!-- <bean id = "customerController" class ="ncontroller.CustomerController"/> -->
+	<!-- 파일 업로드 필수 -->
+	 <bean id = "multipartResolver" class ="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+	 	<property name="maxUploadSize" value = "10485760"></property>
+	 	<property name="defaultEncoding" value ="UTF-8"></property>
+	 </bean>
+</beans> 
+
+
